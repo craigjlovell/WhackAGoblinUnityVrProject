@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &288296595597626091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288296595597626085}
+  - component: {fileID: 288296595597626084}
+  - component: {fileID: 288296595597626093}
+  - component: {fileID: 288296595597626090}
+  m_Layer: 0
+  m_Name: GameController2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &288296595597626085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288296595597626091}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.7221217, y: 0.5452969, z: -2.186903}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &288296595597626084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288296595597626091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be91fa28ea31034e9a7823243222f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goblinController: {fileID: 0}
+  player:
+    playerName: 
+    playerScore: 0
+  GoblinSource: {fileID: 0}
+  audioClipArray:
+  - {fileID: 8300000, guid: 9f7c7213e32d2e04495d128d085d6525, type: 3}
+  - {fileID: 8300000, guid: 65b840a35139a8b40ab65fb199c51436, type: 3}
+  - {fileID: 8300000, guid: 48c8bf4aad7d3e1448aa23a81fe94f22, type: 3}
+  - {fileID: 8300000, guid: bc17d20652d38b344836f6594012732b, type: 3}
+  - {fileID: 8300000, guid: d2eda45095a33a044aae1e3e7554d2dc, type: 3}
+  - {fileID: 8300000, guid: c3de0debe8ee7c04f80d074d6e6c20eb, type: 3}
+  - {fileID: 8300000, guid: 2e76a67273dd78b4eb8eebd17ea4d48d, type: 3}
+  - {fileID: 8300000, guid: f865a6b9abb65f54ba45d1974cb012f8, type: 3}
+  timerText: {fileID: 0}
+  scoretimer: 122
+  endRoundTokens: 0
+  scoreText: {fileID: 0}
+  tokenText: {fileID: 0}
+  startRoundTable: 0
+  startRoundWall: 0
+  ongoingRound: 0
+--- !u!114 &288296595597626093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288296595597626091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303f464176871b4429045366192c7414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPointsTable: {fileID: 0}
+  spawnPointsWall: {fileID: 0}
+  spawnerListTable: []
+  spawnerListWall: []
+  maxSpawnAmount: 2
+  spawnCount: 0
+  totalGoblinValue: 0
+  goblinList: []
+  goblinValues:
+  - 10
+  - 20
+  - 45
+  goblinTypes:
+  - {fileID: 11400000, guid: 495cfb82c97996b46bbb62da16e4cf6c, type: 2}
+  - {fileID: 11400000, guid: 14251801e67fc234893007e59e7483c8, type: 2}
+  - {fileID: 11400000, guid: 5e21c65b8105a6c4f9311286d48cecff, type: 2}
+  animators: []
+--- !u!114 &288296595597626090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288296595597626091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6148191df7750684184ade15ff40f425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  json: {fileID: 4900000, guid: 6352fdfa53f69304d9c827555be6cb8c, type: 3}
+  player:
+    playerName: 
+    playerScore: 0
+  highscoreList:
+    scoreList: []
+  entryScoreText: {fileID: 0}
+  highscoreListText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  finalScore: {fileID: 0}
+  inputPlayerName: {fileID: 0}
